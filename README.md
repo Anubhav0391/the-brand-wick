@@ -6,8 +6,12 @@ It is a simple and efficient authentication app built with ReactJS, Redux, NodeJ
 
 1. Facilitates the creation of a new user account through a dedicated signup form.   (/)
 2. Enables users to securely log in using a designated login form.   (/login)
-3. Empowers users to verify their authentication status through a dedicated endpoint, ensuring a secure and authenticated interaction.   (/verify)
+3. Empowers users to verify their authentication status.   (/verify)
 4. Responsive and user-friendly design for seamless navigation.
+
+## Server:
+
+[deployed link](https://expensive-worm-sari.cyclic.app)
 
 ## Developers:
 
