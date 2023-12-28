@@ -32,13 +32,12 @@ export const login = (userData) => async (dispatch) => {
 
     if (res.data.msg === "Login Successfull") {
       dispatch(
-        loginSuccessAction({ token: res.data.token, email: userData.email })
+        loginSuccessAction({ token: res.data.token, user: res.data.user })
       );
-      return { status: res.status, msg: res.data.msg };
     } else {
       dispatch(loginFailureAction());
-      return { status: res.status, msg: res.data.msg };
     }
+    return { status: res.status, msg: res.data.msg };
   } catch (error) {
     dispatch(loginFailureAction());
   }
@@ -46,20 +45,17 @@ export const login = (userData) => async (dispatch) => {
 
 export const register = (userData) => async (dispatch) => {
   dispatch(loginRequestAction());
-  console.log(1)
-
-  console.log(userData)
+  
   try {
     const res = await axios.post(`${BASE_URL}/user/register`, userData);
     if (res.status===200) {
       dispatch(
         registerSuccessAction()
       );
-      return { status: res.status, msg: res.data.msg };
     } else {
       dispatch(loginFailureAction());
-      return { status: res.status, msg: res.data.msg };
     }
+    return { status: res.status, msg: res.data.msg };
   } catch (error) {
     dispatch(loginFailureAction());
   }

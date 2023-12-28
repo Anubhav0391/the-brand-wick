@@ -25,7 +25,7 @@ export const reducer = (state = initialstate, { type, payload }) => {
         isLoading: false,
         token: payload.token,
         name: payload.name,
-        email: payload.email,
+        user: payload.user,
         isAuth: true,
       };
     case USER_SIGNUP_SUCCESS:
