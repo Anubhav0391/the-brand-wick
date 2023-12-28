@@ -6,7 +6,7 @@ const UserModel = require("../models/user.model");
 const userRouter = express.Router();
 
 userRouter.post("/register", async (req, res) => {
-  const { name, userName, email, phone, password } = req.body;
+  const { name, username, email, phone, password } = req.body;
 
   try {
     bcrypt.hash(password, 5, async (err, hash) => {
@@ -23,7 +23,7 @@ userRouter.post("/register", async (req, res) => {
         } else {
           let user = new UserModel({
             name,
-            userName,
+            username,
             email,
             phone,
             password: hash,
