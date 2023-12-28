@@ -2,7 +2,7 @@
 
 It is a simple and efficient authentication app built with ReactJS, Redux, NodeJS, ExpressJS, MongoDB, and ChakraUI.
 
-<br/><br/><br/><br/>
+<br/><br/>
 # SERVER (API)
 ![nodeJS](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![mongoDB](https://img.shields.io/badge/MongoDB-000000?style=for-the-badge&logo=mongodb&logoColor=4EA94B)
@@ -61,7 +61,7 @@ https://expensive-worm-sari.cyclic.app
 1. **userAuth**: Verifies the token in header to check whether user is logged in. Applied on cart routes.
 
 
-<br/><br/><br/><br/>
+<br/><br/>
 
 
 # CLIENT 
