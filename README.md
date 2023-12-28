@@ -77,10 +77,6 @@ https://expensive-worm-sari.cyclic.app
 
 https://client-ten-cyan-33.vercel.app/
 
-## Developers:
-
-`Anubhav Dixit`
-
 ## Used Tech Stack :
 
 `ReactJS`, `Redux`, `React Router`, `ChakraUI`, `Framer Motion`, `NodeJS`, `ExpressJS`, and `MongoDB`. 
