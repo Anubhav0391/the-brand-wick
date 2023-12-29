@@ -108,7 +108,7 @@ export const Login = () => {
   return (
     <Box
       mx="auto"
-      w={{ base: "80%", md: "40%" }}
+      w={{ base: "90%", md: "60%" ,lg:"40%"}}
       my={"20px"}
       display="flex"
       flexDirection="column"
@@ -146,13 +146,13 @@ export const Login = () => {
           transition={expandingTransition}
         />
         <Box zIndex={10} color={"white"}>
-          <Text fontSize={"50px"} fontWeight={600}>
+          <Text fontSize={{base:'45px',md:"50px"}} fontWeight={600}>
             Welcome
           </Text>
-          <Text fontSize={"50px"} fontWeight={600}>
+          <Text fontSize={{base:'45px',md:"50px"}} fontWeight={600}>
             Back
           </Text>
-          <Text fontSize={"20px"} fontWeight={500}>
+          <Text fontSize={{base:'18px',md:"20px"}} fontWeight={500}>
             Please sign-in to continue!
           </Text>
         </Box>
