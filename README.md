@@ -75,7 +75,7 @@ https://expensive-worm-sari.cyclic.app
 
 ## Frontend Deployed Link:
 
-https://client-mh615o2e5-anubhav0391.vercel.app/
+https://client-anubhav0391.vercel.app/
 
 ## Used Tech Stack :
 
