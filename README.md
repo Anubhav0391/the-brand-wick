@@ -61,7 +61,7 @@ https://expensive-worm-sari.cyclic.app
 1. **userAuth**: Verifies the token in header to check whether user is logged in. Applied on cart routes.
 
 
-<br/><br/><hr/><hr/>
+<br/><hr/><br/>
 
 
 # CLIENT 
