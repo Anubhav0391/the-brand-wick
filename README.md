@@ -18,7 +18,7 @@ https://expensive-worm-sari.cyclic.app
 
 ## Routes:
 
-- /users
+- /user
 
 ## /user
 
